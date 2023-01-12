@@ -9,7 +9,7 @@ import java.util.List;
 
 @Data
 @RequiredArgsConstructor
-public class Taco {
+public class TacoForm {
     @NotNull
     @Size(min=5, message="Name must be at least 5 characters long")
     private String name;
